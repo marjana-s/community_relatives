@@ -1,0 +1,340 @@
+@media (max-width: 1024px) {
+    .NewsElement:nth-child(n+3){
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .NewsElement:nth-child(n+2){
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .AboutUsPhoto{
+    width: 400px;
+    object-fit: cover;
+    }
+    .AboutPhoto{
+        display: flex;
+        flex-direction: column;
+    }
+    .SupportPhoto{
+        object-fit: cover;
+        width: 300px;
+        height: 
+        452px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .PartnertsElement:nth-child(n+4){
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .PartnertsElement:nth-child(n+3){
+        display: none;
+    }
+}
+@media (max-width:1024px){
+    .offcanvas.show:not(.hiding), .offcanvas.showing, .offcanvas-start.offcanvas-toggling{
+        width: 555px;
+        min-height: 464px;
+        max-height: 700px;
+    }
+    #AboutUs{
+        justify-content: space-between;
+    }
+    .AllNewsText{
+        width: 950px;
+    }
+    .AboutUsPhoto{
+        width: 552px;
+        height: 510px;
+        overflow: hidden;
+    }
+    .AboutText{
+        width: 
+        461px;
+        height: 370px;
+        font-size: 
+        18px;
+        line-height: 25px;
+    }
+    .SupportMenu{
+        padding-left: 5%;
+        width: 635px;
+        height: 452px;
+        overflow: hidden;
+    }
+    .SupportInformation{
+        display: flex;
+    }
+    .SupportText{
+        font-size: 20px;
+    }
+    .SupportButt{
+        width: 
+        273px;
+        height: 
+        65px;
+    }
+    .PartSupportMenu{
+        padding: 0px;
+        font-size: 18px;
+    }
+    .ChiledBlockAboutPhoto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media(max-width:480px){
+    #AboutUs{
+        
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .PartnertsElement:nth-child(n+2){
+        display: none;
+    }
+    .AboutUsPhoto{
+        overflow: hidden;
+        width: 100% ;
+        height:298.45px ;
+    }
+    .AboutText{
+        height: 340px;
+        width: 400px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .AboutPhoto img{
+        width: 
+        330px;
+        height: 203px;
+    }
+    .ChiledBlockAboutPhoto img{
+        width:170px ;
+        height:63.88px ;
+    }
+    .AboutBlocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .InformationList{
+        height: 1174px;
+        background-image: url(./img/BackgroundAdaptive.png);
+    }
+    .InformationListBlocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .InformationListElements, .InformationListBlock{
+        font-size: 
+        16px;
+        line-height: 24px;
+    }
+    .InformationListTitle{
+        margin-top: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .InformationListBlock h3{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .InformationListBlock p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .InformationListElements li{
+        padding: 1%;
+    }
+    .ConceptText{
+        font-size: 18px;
+    }
+    .AboutBlocksHeader{
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .AboutBlock img{
+        width: 170px;
+        height: 170px;
+    }
+    .AboutBlockText p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .AboutBlockText b{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .SupportInformation{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .lineSupport{
+        display: none;
+    }
+    .footerimg{
+        width: 148px;
+        height: 143px;
+    }
+    .Footer{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center;
+    }
+    .NewsList {
+        padding: 0px;
+    }
+    .SupportText{
+        text-align: start;
+        padding: 1%;
+        padding-left:10%;
+    }
+    .PartnersButt{
+        width:161px ;
+        height:61px ;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .SupportMenu{
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+    }
+    .Footer{
+        padding: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .DropButt{
+        display: flex;
+        width: 335px !important;
+        height: 56px;
+    }
+    .dropdown-toggle{
+        background-color: transparent !important;
+        background-image: url(./img/ForResidents.png);
+    }
+    .DropButtInformation{
+        width: 335px !important;
+        height: 56px !important;
+        margin: 0px !important; 
+        padding: 0px !important;
+    }
+    .dropdown-item{
+        white-space:normal !important;
+    }
+    .dropdown-menu{
+        background-color:#603790 !important;
+        height: 335px;
+    }
+    .InformationList{
+        display: none;
+    }
+    .InformationAdaptive{
+        height: 600px;
+        background-color: #603790;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5%;
+        padding-bottom: 60% !important;
+    }
+    .dropdown-toggle{
+        margin: 0px !important; 
+        padding: 0px !important;
+        height: 56px;
+    }
+    .DropButtInformation li{
+        color: white !important;
+    }
+    .AllNewsText h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .AllNewsText p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .AllNewsText{
+        width: 400px;
+    }
+
+
+    .offcanvas-title {
+        font-size: 32px !important;
+    }
+    .offcanvas-body{
+        margin: 4%;
+    }
+    .btn-primary{
+        margin-bottom: 5%;
+    }
+    .Donate{
+        padding-top:32% ;
+        padding-bottom: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+    .DonatePage{
+        width: 355px;
+        height: 464px;
+    }
+
+    .DonatePage h1{
+
+        font-size: 24px;
+    }
+    .DonateText{
+        padding: 10%;
+        width: 355px;
+
+    }
+    .DonateText p{
+        font-size: 18px;
+    }
+    .DonateText h2{
+        font-size:24px ;
+    }
+    .offcanvas.show:not(.hiding), .offcanvas.showing, .offcanvas-start.offcanvas-toggling{
+        margin-top: 32.80%;
+        width: 355px;
+        min-height: 464px;
+        max-height: 600px;
+    }
+    .btn-primary{
+        height: 57px;
+        width: 293px;
+    }
+    .btn-primary p{
+        font-size: 16px;
+    }
+    .DonateText img{
+        width: 157px;
+        height: 157px;
+    }
+    .offcanvas-title{
+        display: flex !important;
+        text-align: start !important;
+        
+    }
+    .offcanvas-header{
+        font-size: 18px !important;
+    }
+}
